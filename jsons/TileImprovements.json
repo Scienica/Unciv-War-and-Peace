@@ -6,10 +6,10 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-                "[+1 Food] from [Fresh water] tiles <after discovering [Pottery]>",
-			          "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			          "[+1 Food] <after discovering [Fertilizer]>",
-                "Pillaging this improvement yields approximately [+18 Gold]"],
+                	    "[+1 Food] from [Fresh water] tiles <after discovering [Pottery]>",
+			    "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			    "[+1 Food] <after discovering [Fertilizer]>",
+                	    "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -19,8 +19,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
 		"uniques": ["[+1 Production] <after discovering [Machinery]>",
-                "[+1 Production] <after discovering [Scientific Theory]>", 
-                "Pillaging this improvement yields approximately [+10 Gold]"],
+                	    "[+1 Production] <after discovering [Scientific Theory]>", 
+                	    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
@@ -29,8 +29,10 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", 
-                "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Machinery]>",
+                	    "[+1 Production] <after discovering [Scientific Theory]>",
+			    "[+1 Production] <after discovering [Chemistry]>", 
+                	    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
@@ -43,23 +45,49 @@
                 "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
-
+	{
+	"name": "Camping Grounds",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"techRequired": "Ecology",
+		"happiness": 2,
+		"uniques": ["[-6 Happiness] for each adjacent [Camping Grounds]", 
+			    "[+2 Happiness] for each adjacent [Preserve]",
+                	    "Pillaging this improvement yields approximately [+5 Gold]"],
+		"shortcutKey": "G"
+	},
+	{
+	"name": "Preserve",
+		"turnsToBuild": 12,
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"techRequired": "Biology",
+		"happiness": 1,
+		"science": 2,
+		"culture": 1,
+		"uniques": ["[+2 Happiness] for each adjacent [Preserve]",
+			    "Must be next to [Mountain]"
+			    ["Must be on [River]"]
+                	    "Pillaging this improvement yields approximately [+1 Gold]"],
+		"shortcutKey": "G"
+	},
 	// Resource-specific
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]",
-                "[+1 Gold] <after discovering [Economics]>", 
-                "Can only be built to improve a resource",  
-                "Pillaging this improvement yields approximately [+7 Gold]"],
+                	    "[+1 Gold] <after discovering [Economics]>", 
+                	    "Can only be built to improve a resource",  
+                	    "Pillaging this improvement yields approximately [+7 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Can only be built to improve a resource", 
+			    "Cannot be built on [Water] tiles", 
+			    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
 	},
 	{
@@ -324,9 +352,9 @@
 	},
 	{
 		"name": "Barbarian encampment",
-    "uniqueTo": "Barbarians",
+    		"uniqueTo": "Barbarians",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+        	"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]
