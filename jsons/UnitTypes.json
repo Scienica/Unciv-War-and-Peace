@@ -8,7 +8,15 @@
         "movementType": "Land"
     },
     {
+        "name": "Mercenary Sword",
+        "movementType": "Land"
+    },
+    {
         "name": "Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mercenary Gunpowder",
         "movementType": "Land"
     },
     {
@@ -16,7 +24,15 @@
         "movementType": "Land"
     },
     {
+        "name": "Mercenary Archery",
+        "movementType": "Land"
+    },
+    {
         "name": "Ranged Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mercenary Ranged Gunpowder",
         "movementType": "Land"
     },
     {
@@ -27,8 +43,16 @@
         "name": "Mounted",
         "movementType": "Land"
     },
+     {
+        "name": "Mercenary Mounted",
+        "movementType": "Land"
+    },
     {
         "name": "Mounted Archer",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mercenary Mounted Archer",
         "movementType": "Land"
     },
     {
