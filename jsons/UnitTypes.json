@@ -48,11 +48,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Mounted Archer",
+        "name": "Mounted Archery",
         "movementType": "Land"
     },
     {
-        "name": "Mercenary Mounted Archer",
+        "name": "Mercenary Mounted Archery",
         "movementType": "Land"
     },
     {
